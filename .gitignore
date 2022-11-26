@@ -753,3 +753,20 @@ mcserver/survival/level/map/stats
 mcserver/survival/level/map/poi
 mcserver/survival/level/map/datapacks/terralith-v2-3-5
 mcserver/survival/level/map/advancements
+mcserver/proxy/forwarding.secret
+mcserver/proxy/logs/latest.log
+mcserver/proxy/plugins/Geyser-Velocity.jar
+mcserver/proxy/plugins/floodgate-velocity.jar
+mcserver/proxy/plugins/LuckPerms-Velocity-5.4.50.jar
+mcserver/proxy/plugins/luckperms/libs
+mcserver/proxy/plugins/luckperms/translations
+mcserver/proxy/plugins/serverutils/.pluginCommandsCache.json
+mcserver/proxy/plugins/ServerUtils-Velocity-3.5.3.jar
+mcserver/proxy/plugins/PlayerList-1.0.jar
+mcserver/proxy/plugins/protocolize-velocity.jar
+mcserver/proxy/plugins/tablist-0.1.0.jar
+mcserver/proxy/plugins/VelocityAutoReconnect-1.2.4.jar
+mcserver/proxy/plugins/VelocityVanish.v3.5.0.jar
+mcserver/proxy/plugins/velocityvanish/\! CONFIG FILES WILL GENERATE ON SPIGOT SERVERS \!
+mcserver/proxy/velocity-3.1.2-SNAPSHOT-185.jar
+mcserver/proxy/plugins/luckperms
