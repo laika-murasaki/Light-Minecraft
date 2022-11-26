@@ -2,6 +2,11 @@ Database:
   # Player data storage type, MYSQL or SQLITE
   Type: SQLITE
   MYSQL:
+    Host: localhost
+    Port: 3306
+    Database: InteractionVisualizer
+    Username: mysql
+    Password: password
 Messages:
   NoPermission: "&cYou do not have permission to use that command!"
   Reload: "&aInteractionVisualizer successfully reloaded!"

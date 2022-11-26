@@ -747,3 +747,5 @@ mcserver/survival/plugins/dynmap/b/templates
 mcserver/survival/plugins/dynmap/colorschemes
 mcserver/survival/plugins/TAB/errors.log
 mcserver/survival/plugins/TAB/anti-override.log
+mcserver/survival/plugins/DiscordSRV/config.yml
+mcserver/survival/plugins/InteractionVisualizer/config.yml
