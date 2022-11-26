@@ -6,7 +6,7 @@ bind = "0.0.0.0:25565"
 
 # What should be the MOTD? This gets displayed when the player adds your server to
 # their server list. Legacy color codes and JSON are accepted.
-motd = "&#68fb8d&lL&#69fa94&li&#6bf99a&lg&#6cf8a1&lh&#6ef7a7&lt &#6ff6ae&lR&#70f5b5&le&#72f4bb&li&#73f3c2&lm&#75f2c8&la&#76f1cf&lg&#78f0d5&li&#79efdc&ln&#7aeee3&le&#7cede9&ld &#7decf0&l2&#7febf6&l.&#80eafd&l0"
+motd = "Light Minecraft Proxy"
 
 # What should we display for the maximum number of players? (Velocity does not support a cap
 # on the number of players online.)
@@ -72,8 +72,8 @@ enable-player-address-logging = true
 [servers]
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
-survival = "127.0.0.1:20001"
-creative = "127.0.0.1:20002"
+survival = "127.0.0.1:40001"
+creative = "127.0.0.1:40002"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
