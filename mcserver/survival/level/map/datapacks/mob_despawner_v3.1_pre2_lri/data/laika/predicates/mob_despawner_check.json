@@ -1,0 +1,46 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetY": 1,
+                    "predicate": {
+                        "block": {
+                            "block": "minecraft:lightning_rod",
+                            "state": {
+                                "facing": "up"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "block": "minecraft:copper_block"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "block": "minecraft:shroomlight"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

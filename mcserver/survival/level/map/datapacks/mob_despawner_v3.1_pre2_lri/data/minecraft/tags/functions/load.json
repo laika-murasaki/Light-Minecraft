@@ -1,0 +1,8 @@
+{
+    "values": [
+        "laika:mob_despawner/setup",
+        "laika:mob_despawner/main_schedule",
+        "laika:mob_despawner/despawner_schedule",
+        "laika:mob_despawner/despawner_sound_schedule"
+    ]
+}

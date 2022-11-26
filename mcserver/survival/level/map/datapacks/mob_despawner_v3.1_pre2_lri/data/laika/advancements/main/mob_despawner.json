@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_horse_spawn_egg"
+        },
+        "title": {
+            "text": "Monster Despawner"
+        },
+        "description": {
+            "text": "Despawning monster around MD in radius 96 block",
+            "color": "dark_green"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "laika:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

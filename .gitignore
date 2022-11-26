@@ -749,3 +749,7 @@ mcserver/survival/plugins/TAB/errors.log
 mcserver/survival/plugins/TAB/anti-override.log
 mcserver/survival/plugins/DiscordSRV/config.yml
 mcserver/survival/plugins/InteractionVisualizer/config.yml
+mcserver/survival/level/map/stats
+mcserver/survival/level/map/poi
+mcserver/survival/level/map/datapacks/terralith-v2-3-5
+mcserver/survival/level/map/advancements
