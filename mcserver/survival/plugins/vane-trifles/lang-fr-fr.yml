@@ -1,0 +1,114 @@
+# vim: set tabstop=2 softtabstop=0 expandtab shiftwidth=2:
+#
+# >> See lang-en.yml for variable descriptions <<
+#
+# +-----------------------------------+
+# | CAUTION: Do NOT change this file! |
+# +-----------------------------------+
+#
+# It will be silently overwritten with updates! If you want
+# to customize strings yourself, copy this file to lang-custom.yml
+# and set the language in the config.yml to "lang: 'custom'"
+
+# DO NOT CHANGE! The version of this language file. Used to determine
+# if the file needs to be updated.
+version: 4
+# The corresponding language code used in resource packs. Used for
+# resource pack generation. Typically this is a combination of the
+# language code (ISO 639) and the country code (ISO 3166).
+resource_pack_lang_code: 'fr_fr'
+
+command_heads:
+  usage: "%1$s"
+  description: "Obtenir des Têtes depuis le répertoire de Têtes."
+  help: "Exécuter la commande pour ouvrir le répertoire de Têtes."
+
+command_finditem:
+  # FIXME: missing translation
+  usage: "%1$s"
+  description: "Searches for the given material in nearby containers and entities."
+  help: "Searches for the given material in nearby containers and entities."
+
+command_setspawn:
+  usage: "%1$s"
+  description: "Change la position du point d'apparition global vers votre position actuelle."
+  help: "Change la position du point d'apparition global vers votre position actuelle."
+
+storage:
+  # FIXME: missing translation
+  open_stacked_item: "You need to unstack these items to open them."
+  item_pouch:
+    name: "Pouch"
+  item_backpack:
+    name: "Backpack"
+
+xp_bottles:
+  item_small_xp_bottle:
+    name: "Petite fiole d'Expérience"
+  item_medium_xp_bottle:
+    name: "Moyenne fiole d'Expérience"
+  item_large_xp_bottle:
+    name: "Grande fiole d'Expérience"
+
+item_empty_xp_bottle:
+  name: "Fiole d'Expérience vide"
+
+item_north_compass:
+  # FIXME: missing translation
+  name: "North Compass"
+
+item_reinforced_elytra:
+  name: "Élytres en netherite"
+
+item_file:
+  name: "Lime"
+
+item_slime_bucket:
+  # FIXME: missing translation
+  name: "Slime in a Bucket"
+
+item_papyrus_scroll:
+  # FIXME: missing translations
+  name: "Papyrus Scroll"
+
+item_trowel:
+  name: "Truelle"
+  # FIXME: missing translations
+  lore:
+    - "§7Right-click this item in your inventory to change the feed source."
+    - "§7Current feed source: %1$s"
+
+sickles:
+  item_wooden_sickle:
+    name: "Faucille en bois"
+  item_stone_sickle:
+    name: "Faucille en pierre"
+  item_iron_sickle:
+    name: "Faucille en fer"
+  item_golden_sickle:
+    name: "Faucille en or"
+  item_diamond_sickle:
+    name: "Faucille en diamant"
+  item_netherite_sickle:
+    name: "Faucille en netherite"
+
+scrolls:
+  item_home_scroll:
+    name: "Parchemin de Rappel (Foyer)"
+  item_unstable_scroll:
+    name: "Parchemin de Rappel (instable)"
+    # FIXME: missing translations
+    teleport_no_previous_teleport: "§cYou have never used a scroll before."
+  item_spawn_scroll:
+    # FIXME: missing translations
+    name: "Parchemin de Rappel (Spawn)"
+  item_lodestone_scroll:
+    # FIXME: missing translations
+    name: "Parchemin de Rappel (Lodestone)"
+    teleport_no_bound_lodestone: "§bFirst sneak and right-click a lodestone to (re-)bind this scroll."
+    teleport_missing_lodestone: "§cThe scroll doesn't seem to do anything.. &6You fear the bound lodestone might be missing."
+    bound_lore: "§7Bound to (%2$s§7, %3$s§7, %4$s§7) in %1$s"
+  item_death_scroll:
+    # FIXME: missing translations
+    name: "Parchemin de Rappel (Death)"
+    teleport_no_recent_death: "§cYou have not died recently, or already used a Death Scroll!"

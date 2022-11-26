@@ -1,0 +1,172 @@
+%YAML 1.1
+---
+worlds:
+-   name: world
+    title: Overworld
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_vlowres
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 2
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: Surface
+        prefix: t
+        perspective: iso_SE_60_lowres
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 3
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: heat
+        title: Heat
+        prefix: heat
+        perspective: iso_S_90_vlowres
+        shader: inhabited
+        lighting: default
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 3
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    visibilitylimits: [
+        ]
+    hiddenlimits: [
+        ]
+    hidestyle: stone
+-   name: world_nether
+    title: Nether
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_vlowres
+        shader: defaultscheme
+        lighting: default
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 2
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: nether
+        title: Surface
+        prefix: nt
+        perspective: iso_SE_60_lowres
+        shader: stdtexture
+        lighting: default
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 3
+        boostzoom: 0
+        tilescale: 0
+        background: '#300806'
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: heat
+        title: Heat
+        prefix: heat
+        perspective: iso_S_90_vlowres
+        shader: inhabited
+        lighting: default
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 3
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    visibilitylimits: [
+        ]
+    hiddenlimits: [
+        ]
+    hidestyle: stone
+-   name: world_the_end
+    title: The End
+    enabled: true
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    extrazoomout: 2
+    visibilitylimits: [
+        ]
+    hiddenlimits: [
+        ]
+    hidestyle: stone
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_vlowres
+        shader: stdtexture
+        lighting: default
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 2
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: the_end
+        title: Surface
+        prefix: st
+        perspective: iso_SE_60_lowres
+        shader: stdtexture
+        lighting: default
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 3
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: heat
+        title: Heat
+        prefix: heat
+        perspective: iso_S_90_vlowres
+        shader: inhabited
+        lighting: default
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 3
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false

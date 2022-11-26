@@ -1,0 +1,18 @@
+# The permission default sets who will get the 'simplesit.sit' permission by default
+# - 'true' : Everyone can use the /sit command
+# - 'op' : Only operators (OPs) can use the /sit command
+# - 'not_op' : Everyone but operators (OPs) can use the /sit command
+# - 'false' : No one can use the /sit command unless the 'simplesit.sit' permission is given 
+# to them via a permissions plugin.
+sit-permission-default: true
+
+# All messages can be colored with '&' plus colorID. Color IDS: http://minecraft.gamepedia.com/Formatting_codes
+
+# The message sent to the player when they sit down
+sitdown-message: '&bYou are now sitting.'
+
+# The message sent when the player gets up from sitting.
+situp-message: '&bYou are no longer sitting.'
+
+# The message sent when the player is unable to sit (In air)
+sitfail-message: '&cYou cannot sit in the air!'

@@ -1,0 +1,28 @@
+wands:
+  '1':
+    name: '&bเข็มทิศแห่งการสร้าง'
+    material: RECOVERY_COMPASS
+    maxSize: 16
+    consumeItems: true
+    durability:
+      amount: 1024
+      enabled: false
+      text: '&5Durability: &e{durability}'
+    crafting:
+      ingredient:
+        d: NETHER_STAR
+        b: GOLD_BLOCK
+        c: COMPASS
+      enabled: true
+      shapeless: false
+      recipe:
+      - bbb
+      - cdc
+      - bbb
+    particles:
+      enabled: true
+      type: SCULK_CHARGE_POP
+      count: 3
+    storage:
+      enabled: false
+      size: 27

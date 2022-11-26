@@ -1,0 +1,7 @@
+showPremiumNotice: false
+update:
+  notification: false
+  autoDownload: false
+particle:
+  renderInterval: 2
+  renderForAllPlayers: true

@@ -1,0 +1,7 @@
+reload: The config has been reloaded.
+noPermissions: You dont have enough permissions.
+updateLine2: '&eYour Current version: &a{currentVer}'
+updateLine1: '&eThere is a new update available: &a{newVer}'
+updateLine3: '&e{url}'
+playerNotFound: The player can not be found.
+wandNotFound: Der BuildersWand konnte nicht gefunden werden.

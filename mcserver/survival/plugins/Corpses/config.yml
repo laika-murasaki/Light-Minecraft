@@ -1,0 +1,85 @@
+# Corpses by SergiFerry
+# Spigot: https://www.spigotmc.org/resources/corpses.96774/
+#
+# This plugin uses the PlayerNPC API, please download it.
+# PlayerNPC: https://www.spigotmc.org/resources/playernpc.93625/
+
+autoUpdate: true
+#
+# Seconds to Disappear
+# This variable sets how many seconds the dead body will be shown. After that time, the dead body will disappear.
+secondsToDisappear: 1920
+#
+# Seconds to Disappear Empty
+# This variable sets how many seconds the dead body will be shown when it's inventory is empty.
+secondsToDisappearEmpty: 1
+#
+# Show Text Above
+# This variable sets if above the dead body will show text. This text can be configured in the variable textAbove.
+showTextAbove: false
+#
+# Drop Items On Disappear
+# This variable sets if when the dead body disappears, and it has items on its inventory, the items will be dropped or not.
+dropItemsOnDisappear: true
+#
+# Drop Exp On Disappear
+# This variable sets if when the dead body disappears, and it has experience on its inventory, the exp will be dropped or not.
+dropExpOnDisappear: true
+#
+# Save Exp
+# This variable sets if when the player dies, the exp will be stored in the dead body or dropped automatically.
+saveExp: true
+#
+# Save Inventory
+# This variable sets if when the player dies, the inventory will be stored in the dead body or dropped automatically.
+saveInventory: true
+#
+# Only Accessible By Same
+# This variable sets if the inventory of the dead body will be accessible by the same person that died.
+onlyAccessibleBySame: false
+#
+# Auto Pick Up When Empty
+# This variable sets if when the player inventory is empty, will pick automatically all corpse's inventory items.
+autoPickUpWhenEmpty: true
+#
+# Disappear On Lava
+# This variable sets if when the corpse is inside lava will disappear or not.
+disappearOnLava: false
+#
+# Collideable
+# This variable sets if the corpse will be collideable or not.
+collideable: false
+#
+# Glowing Color
+# This variable sets the color of the glowing, that the player will see on it's corpse. If you set none, the corpse will not glow. When the corpse's inventory is empty, the corpse will stop glowing.
+# You can use: none or black, dark_blue, green, dark_aqua, red, purple, gray, dark_gray, blue, light_green, aqua, light_red, magenta, yellow, or white
+glowingColor: gray
+#
+# Inventory Title
+# This variable sets the title of the inventory of the corpse.
+inventoryTitle: Dead body of {player}
+#
+# Text Above
+# This variable sets the text that will be shown above the corpse if the variable showTextAbove is true.
+# Placeholders:
+# - {player} the player's name
+# - {timer} the timer of seconds before disappearing
+textAbove:
+- '&7Dead body of &c&l{player}'
+- '&7It will disappear in &c{timer}'
+#
+# Text opacity
+# This variable sets the opacity of the text of the hologram above a Corpse.
+# You can use: lowest, low, medium, hard, harder, full
+textOpacity: lowest
+#
+# Line spacing
+# This variable sets the line spacing of the text above the Corpse.
+# Minimum: 0.27 / Maximum: 1.0 (Default: 0.27)
+lineSpacing: 0.27
+#
+# Worlds
+# This variable sets the worlds where dead players will spawn a Corpse.
+# Use '*' to add all worlds. Add "-" in front a world to remove it (for example: '-world_nether').
+worlds:
+- '*'
