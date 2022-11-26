@@ -57,7 +57,7 @@ worlds:
     hiddenlimits: [
         ]
     hidestyle: stone
--   name: world_nether
+-   name: map_nether
     title: Nether
     enabled: true
     extrazoomout: 2
@@ -114,7 +114,7 @@ worlds:
     hiddenlimits: [
         ]
     hidestyle: stone
--   name: world_the_end
+-   name: map_the_end
     title: The End
     enabled: true
     protected: false
