@@ -809,3 +809,5 @@ mcserver/proxy/plugins/MaintenanceVelocity.jar
 mcserver/proxy/plugins/CommandBlocker-1.3.0.jar
 mcserver/proxy/logs/2022-11-27-3.log.gz
 mcserver/survival/plugins/InteractiveChatDiscordSrvAddon/resourcepacks/Default-Dark-Mode-1.19-v1.3.4.zip
+mcserver/survival/level/map/datapacks/daycount-v1-2/pack.png
+mcserver/survival/dumps/heap-dump-2022-11-27_20.31.22.hprof

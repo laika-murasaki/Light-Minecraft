@@ -1,0 +1,8 @@
+{
+    "values": [
+        "kazzmon.daycount:setup",
+        "kazzmon.daycount:initial",
+        "kazzmon.daycount:trigger_event",
+        "kazzmon.daycount:timer_1s"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 10,
+    "description": "A simple Day Counter to show how many days have passed"
+  }
+}

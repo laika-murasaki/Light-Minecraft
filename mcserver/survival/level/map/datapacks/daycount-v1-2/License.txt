@@ -1,0 +1,92 @@
+This License holds the Terms of Use and Conditions for Datapacks, Resource Packs, and other resources and assets published by Kazzmon. This License shall discuss how Kazzmon's Datapacks, Resource Packs, etc. are to be used and the restrictions and conditions that comes along with it. This License is subject to change by Kazzmon at their sole discretion.
+
+==================================================
+TERMS OF USE AND CONDITIONS
+I. PERMITTED USES:
+
+  A. This section describes the PERMITTED USES for Kazzmon’s Datapacks:
+
+    1. The use of any of Kazzmon’s Datapacks, in its unaltered form or in any altered or modified form, is allowed in a Singleplayer World as long as you do not distribute said Datapacks and/or claim it as your own.
+
+    2. The use of any of Kazzmon’s Datapacks, in its unaltered form or in any altered or modified form, is allowed in a Minecraft Server, Public or Private, as long as you do not distribute said Datapacks and/or claim it as your own. It is also recommended, but not required, to give credit to the owner, Kazzmon, for using said Datapacks, as well as letting the Player/s in the aforementioned Server know that said Datapacks are being used.
+
+    3. The use of any of Kazzmon’s Datapacks, in its unaltered form only, as a learning resource is allowed. However, it is prohibited to use any portion/s, if not all, of said Datapacks’ code in another datapack. You may use it only as a learning resource, but not take from it, even with appropriate credits. Further details shall be discussed under the PROHIBITED USES section.
+
+    4. The act of altering or modifying any of Kazzmon’s Datapacks is allowed, however, it has several restrictions, with details discussed under the PROHIBITED USES section. Any use cases of the altered or modified versions of said Datapacks shall not violate any other Terms stated in this License.
+
+    5. The use of any of Kazzmon’s Datapacks, in its unaltered form only, for commercial use, such as YouTube videos and Minecraft servers, is allowed as long as you give credit to the owner, Kazzmon, and that it does not violate any other Terms stated in this License.
+
+    6. Any other use cases for any of Kazzmon’s Datapacks that are not stated in this License shall be considered PROHIBITED, unless with express permission from Kazzmon.
+
+
+  B. This section describes the PERMITTED USES for Kazzmon's Resource Packs, and other resources and assets, such as the Guide Book and Pack Files, which shall be collectively called as "Resources" under this section:
+  
+    1. The use of any of Kazzmon's Resources, in its unaltered form or in any altered or modified form, is allowed in a Singleplayer World and in a Minecraft Server, Public or Private, as long as you do not redistribute said Resources and/or claim it as your own. This use case for said Resources shall also only be allowed if used alongside any of Kazzmon’s Datapacks. Conditions for using said Datapacks shall also apply here.
+
+    2. The use of any of Kazzmon’s Resources, in its unaltered form only, as a learning resource is allowed. However, it is prohibited to use any portion/s, if not all, of said Resources in other projects. You may use it only as a learning resource, but not take from it, even with appropriate credits. Further details shall be discussed under the PROHIBITED USES section.
+
+    3. The act of altering or modifying any of Kazzmon’s Resources is allowed, however, it has several restrictions, with details discussed under the PROHIBITED USES section. Any use cases of the altered or modified versions of said Resources shall not violate any other Terms stated in this License.
+
+    4. The use of any of Kazzmon’s Resources, in its unaltered form only, for commercial use, such as YouTube videos and Minecraft servers, is allowed as long as you give credit to the owner, Kazzmon, and that it does not violate any other Terms stated in this License.
+
+    5. Any other use cases for any of Kazzmon’s Resources that are not stated in this License shall be considered PROHIBITED, unless with express permission from Kazzmon.
+
+
+II. PROHIBITED USES:
+
+  A. This section describes the PROHIBITED USES for Kazzmon’s Datapacks:
+
+    1. The act of redistributing, republishing, or reuploading any of Kazzmon's Datapacks, in its unaltered form or in any altered or modified form, shall be prohibited.
+
+    2. The act of claiming any of Kazzmon’s Datapacks, in its unaltered form or in any altered or modified form, as your own shall be prohibited.
+
+    3. The act of using portion/s, if not all, of any of Kazzmon’s Datapacks in another datapack or in any other format shall be prohibited, even with appropriate credits. This includes all of said Datapacks' codes, images, and other files and resources. There is one exemption for this:
+
+      - Creating Compatibility Add-Ons between any of Kazzmon’s Datapacks and other published datapacks is allowed, as long as you have express permission from the owner, Kazzmon, as well as including appropriate credits.
+
+    4. The act of altering or modifying any of Kazzmon’s Datapacks has several restrictions, and any modifications done outside of those restrictions shall be considered PROHIBITED:
+
+      - Adding and/or Modifying existing Loot Tables under the Minecraft namespace is allowed.
+      - Modifying existing Tags for Entity Types, Blocks, and Items is allowed.
+      - Modifying existing Recipes is allowed.
+      - Modifying the Pack Format to an updated or to any supported version is allowed.
+
+      - Adding and/or Modifying existing Functions is prohibited.
+
+    5. The act of bundling any of Kazzmon’s Datapacks into a datapack-pack or into a mod/modpack is considered as an act of modifying said Datapacks, and falls outside of the allowed restrictions. This will also fall under Statement 3 of this Section, and is therefore strictly prohibited.
+
+    6. The act of revealing any Patron-exclusive content, as part of Kazzmon’s Datapacks, in any format shall be considered as an act of redistributing said Datapacks and is therefore strictly prohibited.
+
+
+  B. This section describes the PROHIBITED USES for Kazzmon's Resource Packs, and other resources and assets, such as the Guide Book and Pack Files, which shall be collectively called as "Resources" under this section:
+
+    1. The act of redistributing, republishing, or reuploading any of Kazzmon's Resources, in its unaltered form or in any altered or modified form, shall be prohibited.
+
+    2. The act of claiming any of Kazzmon’s Resources, in its unaltered form or in any altered or modified form, as your own shall be prohibited.
+
+    3. The act of using portion/s, if not all, of any of Kazzmon’s Resources in another project or in any other format shall be prohibited, even with appropriate credits. This includes all of said Resources' codes, images, and other files and resources. There is one exemption for this:
+
+      - Creating a Resource Pack based on Kazzmon’s Resource Packs, to be used solely for the aforementioned Compatibility Add-Ons and related Datapacks, is allowed, as long as you have express permission from the owner, Kazzmon, as well as including appropriate credits.
+    
+    4. The act of altering or modifying any of Kazzmon’s Resources has several restrictions, and any modifications done outside of those restrictions shall be considered PROHIBITED:
+
+      - Adding Textures is allowed, as long as you put it in another namespace of your own.
+      - Modifying existing Models is allowed, as long as it is for accomodating newly added Textures.
+      - Adding new features and functionality for Optifine is allowed.
+      - Reusing existing Textures is allowed, as long as it is only for accomodating newly added Optifine features and functionality.
+      - Modifying the Pack Format to an updated or to any supported version is allowed.
+
+      - Replacing/Deleting, Modifying, and/or Reusing any of Kazzmon’s Resources other than Resource Packs is strictly prohibited.
+      - Replacing/Deleting and/or Modifying existing Textures is prohibited.
+
+    5. The act of bundling any of Kazzmon’s Resources into another project is considered as an act of modifying said Resources, and falls outside of the allowed restrictions. This will also fall under Statement 3 of this Section, and is therefore strictly prohibited.
+
+    6. The act of revealing any Patron-exclusive content, as part of Kazzmon’s Resources, in any format shall be considered as an act of redistributing said Resources and is therefore strictly prohibited.
+
+
+By using any of Kazzmon’s Datapacks, Resource Packs, and other resources and assets published by Kazzmon, you agree to the Terms of Use and Conditions and you are provided a LIMITED,NON-EXCLUSIVE, NON-TRANSFERABLE, and REVOCABLE License. Kazzmon reserves all rights to revoke this License at their sole discretion, under any breach of the Terms of Use and Conditions or any unforeseen circumstances
+
+Kazzmon, as the owner, holds full Copyright over all portions of their Datapacks, Resource Packs, and other publications, and that any part of this License can be overridden by them at any time, and for any purpose.
+
+==================================================
+This License was last altered on March 17, 2022
