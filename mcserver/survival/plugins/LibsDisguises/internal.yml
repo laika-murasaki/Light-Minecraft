@@ -7,8 +7,8 @@ Server-IP: 127.0.0.1
 # Should the plugin be doing release or dev builds updating?
 ReleaseBuild: true
 # Make sure the plugin aint spamming update requests
-LastUpdateCheck: 1669508798060
+LastUpdateCheck: 1669540205293
 HittingRateLimit: false
-LastGithubETag: W/"d5d8899cd6a930b55a724e78fe837144bc50c5dd3ea903288d00eb081311f1ab"
+LastGithubETag: W/"d995a18664476878be2bcf919f69ff5d5d2ad79399d0f6b54ff0fc734f61dd67"
 LastPluginVersion: 10.0.31
 Data: null

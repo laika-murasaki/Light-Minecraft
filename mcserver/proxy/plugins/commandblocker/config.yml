@@ -4,7 +4,7 @@ default pattern prefix: "(?i)^\\/"
 default pattern suffix: "(\\s|$)"
 # the suffix that is appended after all patterns
 
-default deny message: "&cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
+default deny message: "<#ed9600>⚠ <#02ad82>&l[LMP] &r<#62bda6>Unsupport command"
 # the deny message if no filter specific message is set
 
 default type: blacklist
@@ -44,7 +44,7 @@ default actions:
 # All terminal actions: DENY, ALLOW
 # All intermediate actions: SOFT_DENY, SOFT_ALLOW, NONE
 
-root filter permission: "tau.cmdblock.filter"
+root filter permission: "light.protect.cmd"
 # this permission is the base permission appended before the filters name
 # so filter "foo" would become "tau.cmdblock.filter.foo"
 
@@ -54,7 +54,7 @@ permission cache millis: 100
 #  this can be unnecessarily taxing for inefficient permissions plugins
 
 filters:
-  myfilter:
+  survival:
     #pattern prefix: "(?i)^\\/"
     # filter specific prefix
     #pattern suffix: "($| .*)"
@@ -74,17 +74,75 @@ filters:
     patterns:
       # blocks /?
       - "\\?.*"
-      # blocks all <plugin>:<command>
       - "\\S*:.*"
-      # blocks /pl & /plugins
       - "pl(ugins)?"
-      # ican'thasbukkit
       - "icanhasbukkit"
-      # version
       - "ver(sion)?"
       - "about"
-      # paper
       - "paper"
+      - "afk(plus)?"
+      - "anarchystats"
+      - "avl(optimize)?(reload)?"
+      - "builderswand"
+      - "bw"
+      - "cacheskin"
+      - "cdis(guise)?"
+      - "clone(dis)?(disg)?(disguise)?"
+      - "co"
+      - "copy(d)?(disg)?(disguise)?"
+      - "create(disg)?(disguise)?"
+      - "custom(disg)?(disguise)?"
+      - "d(c)?(clone)?(copy)?(entity)?(help)?"
+      - "deathcoordinates"
+      - "dis(c)?(clone)?(cord)?(cordsrv)?(entity)?(g)?(gclone)?(gcopy)?(gentity)?(ghelp)?(gmodentity)?"
+      - "disgmod(ify)?(ifyplayer)?(ifyuuid)?(player)?(radius)?(uuid)?"
+      - "disg(player)?(radius)?"
+      - "disguise(c)?(clone)?(copy)?(entity)?(help)?(modify)?(modifyentity)?(modifyplayer)?(modifyradius)?(parse)?(player)?(radius)?(uuid)?"
+      - "dis(guuid)?(help)?(modentity)?(modplayer)?(modradius)?(moduuid)?(player)?(radius)?"
+      - "dmap"
+      - "dmarker"
+      - "dmod(ify)?(entity)?(ifyentity)?(ifyplayer)?(ifyradius)?(ifyuuid)?(player)?(radius)?(uuid)?"
+      - "d(player)?(radius)?(uuid)?"
+      - "downloadskin"
+      - "dynmap(exp)?"
+      - "floodgate"
+      - "fwhitelist"
+      - "gethead"
+      - "geyser"
+      - "grab(head)?(skin)?(skull)?"
+      - "help"
+      - "ic(d)?"
+      - "interactivechat(discordsrv)?"
+      - "ld"
+      - "libsdisg(uises)?"
+      - "lp(v)?"
+      - "luckperms(velocity)?"
+      - "mdisg(entity)?(player)?"
+      - "mdisguise(entity)?(player)?(radius)?(uuid)?"
+      - "mdisguuid"
+      - "me"
+      - "moddis(.*)?"
+      - "modifyd(.*)?"
+      - "papi"
+      - "parsedisguise"
+      - "perm(ission)?(issions)?(s)?"
+      - "placeholderapi"
+      - "playerhead"
+      - "protocolize"
+      - "save(.*)?"
+      - "sayanvanish"
+      - "tm"
+      - "skin(cache)?"
+      - "spark"
+      - "tab"
+      - "tps"
+      - "trigger"
+      - "tw(eakin)?"
+      - "und(.*)?"
+      - "uploadskin"
+      - "vanish"
+      - "velocity(vanish)?"
+      - "viewdistance"
 
 # No touchy
 config version: 4.0
