@@ -5,15 +5,16 @@ execute unless score #kazzdc_daycount kazzdc.daycount = #kazzdc_stored kazzdc.da
 execute unless score #kazzdc_daycount kazzdc.daycount = #kazzdc_stored kazzdc.daycount run execute store result score #kazzdc_stored kazzdc.daycount run scoreboard players get #kazzdc_daycount kazzdc.daycount
 
 #Says in Chat the Day Count
-execute if score #kazzdc_style DayCount_Style matches 1 run tellraw @a[tag=!kazzdc.shown] [{"text":"Day ","color":"yellow","bold":true},{"score":{"name":"#kazzdc_daycount","objective":"kazzdc.daycount"},"color":"gold","bold":true}]
+execute if score #kazzdc_style DayCount_Style matches 1 run title @a[tag=!kazzdc.shown] times 10 60 20
+execute if score #kazzdc_style DayCount_Style matches 1 run title @a[tag=!kazzdc.shown] title [{"text":"Day ","color":"#24967c","bold":true},{"score":{"name":"#kazzdc_daycount","objective":"kazzdc.daycount"},"color":"#41a681","bold":true}]
 
 #Displays in Actionbar the Day Count
 execute if score #kazzdc_style DayCount_Style matches 2 run title @a[tag=!kazzdc.shown] times 10 60 20
-execute if score #kazzdc_style DayCount_Style matches 2 run title @a[tag=!kazzdc.shown] actionbar [{"text":"Day ","color":"yellow","bold":true},{"score":{"name":"#kazzdc_daycount","objective":"kazzdc.daycount"},"color":"gold","bold":true}]
+execute if score #kazzdc_style DayCount_Style matches 2 run title @a[tag=!kazzdc.shown] title [{"text":"Day ","color":"#24967c","bold":true},{"score":{"name":"#kazzdc_daycount","objective":"kazzdc.daycount"},"color":"#41a681","bold":true}]
 
 #Displays on Screen the Day Count
 execute if score #kazzdc_style DayCount_Style matches 3 run title @a[tag=!kazzdc.shown] times 10 60 20
-execute if score #kazzdc_style DayCount_Style matches 3 run title @a[tag=!kazzdc.shown] title [{"text":"Day ","color":"yellow","bold":true},{"score":{"name":"#kazzdc_daycount","objective":"kazzdc.daycount"},"color":"gold","bold":true}]
+execute if score #kazzdc_style DayCount_Style matches 3 run title @a[tag=!kazzdc.shown] title [{"text":"Day ","color":"#24967c","bold":true},{"score":{"name":"#kazzdc_daycount","objective":"kazzdc.daycount"},"color":"#41a681","bold":true}]
 
 #Sound Effect
 execute as @a[tag=!kazzdc.shown] at @s run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 0.7

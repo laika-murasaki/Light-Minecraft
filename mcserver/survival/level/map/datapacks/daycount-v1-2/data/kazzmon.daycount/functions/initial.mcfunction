@@ -1,10 +1,8 @@
 #Message
-tellraw @a [{"text":"[DayCount]: ","color":"yellow"},{"text":"Kazzmon's DayCount is now active!","color":"green"}]
-
 #Initialize Day Count and Stored Statistics
 scoreboard players set #kazzdc_daycount kazzdc.daycount 0
 scoreboard players set #kazzdc_stored kazzdc.daycount 0
-scoreboard players set @a[tag=!kazzdc_style] DayCount_Style 0
+scoreboard players set @a[tag=!kazzdc_style] DayCount_Style 3
 execute if score #kazzdc_style DayCount_Style matches 1 run scoreboard players set @a[tag=!kazzdc_style] DayCount_Style 1
 execute if score #kazzdc_style DayCount_Style matches 2 run scoreboard players set @a[tag=!kazzdc_style] DayCount_Style 3
 execute if score #kazzdc_style DayCount_Style matches 3 run scoreboard players set @a[tag=!kazzdc_style] DayCount_Style 5
