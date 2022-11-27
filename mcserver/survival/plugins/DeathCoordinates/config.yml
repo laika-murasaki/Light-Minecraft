@@ -10,20 +10,19 @@ Config:
     time: 300
   teleport-cooldown: 15
   enabled-worlds:
-  - world
-  - world_nether
-  - world_the_end
+  - map
+  - map_nether
+  - map_the_end
   teleport_money_required: 0
   console_notification:
-    enabled: false
-    message: '&cPlayer &e%player% &cjust died in: &8(&7%coord-x% %coord-y% %coord-z%&8,
-      &cWorld: &7%world%&8)'
+    enabled: true
+    message: '&e%player% &#50a191just died in: &#7da8a0World&7:7f%world% &7(&f%coord-x%&7,&f%coord-y%&7,&f%coord-z%&7)'
   world_alias:
     world: Main World
     minigames: MiniGames World
 Messages:
   death-message:
-  - '&7ตาย: &b%coord-x%&7,&b%coord-y%&7,&b%coord-z% &7: &c%world%'
+  - '&#50a191&lDEAD: &#7da8a0World&7:7f%world% &7(&f%coord-x%&7,&f%coord-y%&7,&f%coord-z%&7)'
   death-message-extra: ''
   no-died-recently: '&7You haven''t died recently.'
   incorrect-world: '&7You can''t do that on this world'
