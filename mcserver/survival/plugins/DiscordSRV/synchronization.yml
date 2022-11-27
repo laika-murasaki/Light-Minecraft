@@ -33,7 +33,7 @@ NicknameSynchronizationFormat: "%player_name%"
 # GroupRoleSynchronizationCycleTime: amount of minutes between repeatedly triggering synchronization for all online players
 # GroupRoleSynchronizationCycleCompletely: whether synchronizations running on a timer should synchronize every member in the bots Discord servers
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"verify": "1033192201326440448","supportor": "1037270388549365770", "operator": "1040648046976970792"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {"verify": "1033192201326440448","supportor": "1037270388549365770","redstone": "1042422189472895016","booster": "1041910030137573386","operator": "1040648046976970792"}
 GroupRoleSynchronizationMinecraftIsAuthoritative: false
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false
