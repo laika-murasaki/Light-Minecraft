@@ -1,12 +1,16 @@
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
-  enabled: false
+  enabled: true
   disable-in-worlds:
   - disabledworld
   header:
+  - '                            '
+  - '%animation:lightmc%'
   - ''
   footer:
   - ''
+  - '&#24FBA7█&7 = VC Installed'
+  - '&#4D7968█&7 = VC Not Installed'
   per-world:
     world1:
       header:
@@ -31,7 +35,8 @@ scoreboard-teams:
   anti-override: true
   sorting-types:
   - PLACEHOLDER:%javascript_check_afk%:,&7
-  - GROUPS:founder,contributor,supportor,verify,default
+  - PLACEHOLDER:%javascript_check_voice%:&#24FBA7█,&#4D7968█
+  - GROUPS:operator,verify,default
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
   disable-in-worlds:
@@ -142,8 +147,8 @@ placeholders:
   register-tab-expansion: false
 placeholder-output-replacements:
   '%javascript_check_voice%':
-    'voiceuse': '&a█'
-    'voicenotuse': '&c█'
+    'voiceuse': '&#24FBA7█'
+    'voicenotuse': '&#4D7968█'
   '%essentials_vanished%':
     'yes': '&7| Vanished'
     'no': ''
