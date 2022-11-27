@@ -1,0 +1,2 @@
+function laika:mob_despawner/events/despawning_entities_96
+function laika:mob_despawner/ticks/sound

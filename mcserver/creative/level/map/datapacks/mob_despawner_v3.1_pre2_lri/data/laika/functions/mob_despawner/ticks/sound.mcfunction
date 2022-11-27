@@ -1,0 +1,1 @@
+execute if entity @s[scores={despawner.effect=1}] run function laika:mob_despawner/events/play_despawn_sounds

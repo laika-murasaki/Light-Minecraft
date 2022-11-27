@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+						"nbt": "{SkullOwner:Laika_Murasaki}"
+					},
+        "title": {
+            "text": "Laika Datapack",
+            "bold": true,
+            "color": "red"
+        },
+        "description": {
+            "text": "USE FOR LIGHT REIMAGINED",
+            "color": "dark_red",
+            "bold": false
+        },
+        "background": "minecraft:textures/block/amethyst_block.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
