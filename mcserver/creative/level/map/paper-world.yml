@@ -4,3 +4,11 @@
 # World: map (minecraft:overworld)
 
 _version: 29
+spawn-limits:
+  ambient: 1
+  animals: 5
+  axolotls: 3
+  monsters: 30
+  water-ambient: 2
+  water-animals: 2
+  water-underground-creature: 3

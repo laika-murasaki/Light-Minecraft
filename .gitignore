@@ -1048,3 +1048,16 @@ mcserver/creative/level/map/level.dat_old
 mcserver/creative/level/map/region
 mcserver/creative/level/map/session.lock
 mcserver/creative/level/map/uid.dat
+mcserver/creative/level/map/entities/r.-1.0.mca
+mcserver/creative/level/map/DIM1/data/raids_end.dat
+mcserver/creative/level/map/DIM-1/data/raids.dat
+mcserver/creative/level/map/data/fabricRegistry.dat
+mcserver/creative/level/map/advancement
+mcserver/creative/level/map/icon.png
+mcserver/creative/level/map/playerdata
+mcserver/creative/level/map/poi
+mcserver/creative/level/map/stats
+mcserver/survival/level/map/DIM-1/data
+mcserver/survival/level/map/DIM1/data
+mcserver/survival/level/map/icon.png
+mcserver/creative/level/map/entities
