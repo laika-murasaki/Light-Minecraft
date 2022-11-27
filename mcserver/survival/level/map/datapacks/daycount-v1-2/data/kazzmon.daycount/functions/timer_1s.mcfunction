@@ -17,8 +17,6 @@ execute if score #kazzdc_style DayCount_Style matches 3 run title @a[tag=!kazzdc
 execute if score #kazzdc_style DayCount_Style matches 3 run title @a[tag=!kazzdc.shown] title [{"text":"Day ","color":"#24967c","bold":true},{"score":{"name":"#kazzdc_daycount","objective":"kazzdc.daycount"},"color":"#41a681","bold":true}]
 
 #Sound Effect
-execute as @a[tag=!kazzdc.shown] at @s run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 0.7
-execute as @a[tag=!kazzdc.shown] at @s run playsound minecraft:entity.player.levelup ambient @s ~ ~ ~ 1 0.5
 
 #Sets up Scoreboard
 execute if score #kazzdc_style DayCount_Style matches 1 run scoreboard players set @a[tag=!kazzdc_style] DayCount_Style 1
