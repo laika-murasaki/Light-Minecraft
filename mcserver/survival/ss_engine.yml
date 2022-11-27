@@ -214,8 +214,8 @@ world-settings:
           require-open-lid: true
           nearby-range: 8.0
           nearby-equation: (nearby - 1) / 5.0
-          random-color: false
-        change-color-with-dye: false
+          random-color: true
+        change-color-with-dye: true
         always-drop-exp: false
       mule:
         ridable-in-water: false

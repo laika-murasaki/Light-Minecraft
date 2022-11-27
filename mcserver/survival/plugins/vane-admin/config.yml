@@ -95,8 +95,8 @@ hazard_protection:
   #   - "world_nether"
   #   - "world_the_end"
   wither_world_whitelist:
-    - "world_nether"
-    - "world_the_end"
+    - "map_nether"
+    - "map_the_end"
 
   world_rebuild:
     # Instead of cancelling explosions, the world will regenerate after a short
@@ -146,7 +146,7 @@ spawn_protection:
 
   # The spawn world.
   # Default: "world"
-  world: "world"
+  world: "map"
 
   # Center X coordinate.
   # Valid values: Any int

@@ -16,10 +16,7 @@ date-format: "dd/M/yyyy"
 # By default, it uses the default worlds.
 # You can add more or change the names.
 worlds-to-use:
-  - "world"
-  - "world_nether"
-  - "world_the_end"
-
+  - "level"
 # This is where you can change what message is on the command.
 # {{STARTDATE}} - Displays the start date for the server. Uses the date above.
 # {{DAYS}} - Displays how many days since the start date for the server.
@@ -27,7 +24,7 @@ worlds-to-use:
 # {{TOTALJOINS}} - Displays the total unique players that have joined.
 command-message:
   - "<gold>--------------------------------------------</gold>"
-  - "<dark_aqua>ServerName was created on {{STARTDATE}}. That was {{DAYS}} days ago.</dark_aqua>"
+  - "<dark_aqua>LightMinecraft was created on {{STARTDATE}}. That was {{DAYS}} days ago.</dark_aqua>"
   - "<dark_aqua>The world is {{WORLDSIZE}}.</dark_aqua>"
   - "<dark_aqua>A total of {{TOTALJOINS}} players have joined.</dark_aqua>"
   - "<gold>--------------------------------------------</gold>"

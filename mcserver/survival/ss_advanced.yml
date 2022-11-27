@@ -25,7 +25,7 @@ world-settings:
     item-despawn-rate: 6000
     zombie-aggressive-towards-villager: true
     end-portal-sound-radius: 0
-    mob-spawn-range: 8
+    mob-spawn-range: 5
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
     hanging-tick-frequency: 100
@@ -77,9 +77,9 @@ world-settings:
       tick-inactive-villagers: false
       ignore-spectators: true
     entity-tracking-range:
-      players: 96
-      animals: 64
-      monsters: 64
+      players: 80
+      animals: 48
+      monsters: 48
       misc: 32
       other: 64
     ticks-per:
@@ -118,7 +118,7 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    dragon-death-sound-radius: 0
+    dragon-death-sound-radius: 300
     verbose: false
 commands:
   silent-commandblock-console: true

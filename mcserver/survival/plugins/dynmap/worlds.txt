@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 worlds:
--   name: world
+-   name: map
     title: Overworld
     enabled: true
     extrazoomout: 2

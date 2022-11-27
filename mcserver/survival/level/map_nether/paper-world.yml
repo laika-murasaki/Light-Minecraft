@@ -23,3 +23,12 @@ anticheat:
     - netherrack
     - soul_sand
     - soul_soil
+keep-spawn-loaded: false
+spawn-limits:
+  ambient: -1
+  animals: -1
+  axolotls: -1
+  monsters: 20
+  water-ambient: -1
+  water-animals: -1
+  water-underground-creature: -1
