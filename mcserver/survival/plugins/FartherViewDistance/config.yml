@@ -222,6 +222,7 @@ permissions:
     - "8;max_view_distance.8"
     - "16;max_view_distance.16"
     - "24;max_view_distance.24"
+    - "31;max_view_distance.31"
     - "32;max_view_distance.32"
 
   # 多少毫秒檢查一次玩家的權限
