@@ -49,14 +49,14 @@ DiscordAttachments:
   # Whether to convert discord attachments from disgusting urls into clickable text in chat
   Convert: true
   Formatting:
-    Text: "&e[&b{FileName}&e]"
-    ImageOriginal: " &a(Link)"
+    Text: "&7[&f{FileName}&7]"
+    ImageOriginal: " &#5CBDA0(Link)"
     Hover:
       Enabled: true
       HoverText:
-        - "&bClick to Preview"
+        - "&#5CBDA0Click to Preview"
       ImageOriginalHover:
-        - "&eOpen Original"
+        - "&#5CBDA0Open Original"
   # Whether to allow previewing images in game using maps
   ShowImageUsingMaps: true
   # What color should the background be when previewing images in game using maps
@@ -112,7 +112,7 @@ DiscordCommands:
   # Settings for /playerlist
   PlayerList:
     # Enable the /playerlist command to show all online players in a tablist style image
-    Enabled: true
+    Enabled: false
     # The description of this command on discord
     Description: Show all online players!
     # If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
@@ -177,45 +177,45 @@ DiscordCommands:
     # Enable the /item command on discord
     Enabled: true
     # Allow the /itemasuser associate command on discord
-    AllowAsOthers: true
+    AllowAsOthers: false
     # If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
     # If you do, set this option on ONE of the servers connected to the discord channel to true,
     # With all others servers to false.
     IsMainServer: true
     InGameMessage:
-      Text: "&6{Player} shared an Item: &f{ItemTag}"
-    InventoryTitle: "{Player}'s Item"
+      Text: "&7[&f{Player} &#5CBDA0Item: &f{ItemTag}&7]"
+    InventoryTitle: "{Player} Item"
   # Settings for /inv
   ShareInventory:
     # Enable the /inv command on discord
     Enabled: true
     # Allow the /invasuser associate command on discord
-    AllowAsOthers: true
+    AllowAsOthers: false
     # If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
     # If you do, set this option on ONE of the servers connected to the discord channel to true,
     # With all others servers to false.
     IsMainServer: true
     InGameMessage:
-      Text: "&6{Player} shared their Inventory: &f[&b{Player}'s Inventory&f]"
+      Text: "&7[&f{Player} Inventory&7]"
       Hover:
-        - "&bClick to view!"
-    InventoryTitle: "{Player}'s Inventory"
-    SkullDisplayName: "&e{Player}"
+        - "&fClick to view!"
+    InventoryTitle: "{Player} Inventory"
+    SkullDisplayName: "&#5CBDA0{Player}"
   # Settings for /ender
   ShareEnderChest:
     # Enable the /ender command on discord
     Enabled: true
     # Allow the /enderasuser associate command on discord
-    AllowAsOthers: true
+    AllowAsOthers: false
     # If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
     # If you do, set this option on ONE of the servers connected to the discord channel to true,
     # With all others servers to false.
     IsMainServer: true
     InGameMessage:
-      Text: "&6{Player} shared their Ender Chest: &f[&d{Player}'s Ender Chest&f]"
+      Text: "&7[&f{Player} Ender Chest&7]]"
       Hover:
-        - "&bClick to view!"
-    InventoryTitle: "{Player}'s Ender Chest"
+        - "&#5CBDA0Click to view!"
+    InventoryTitle: "{Player Ender Chest"
 DiscordMention:
   # Link mentions through discordsrv linked accounts
   TranslateMentions: true
@@ -256,7 +256,8 @@ Resources:
   # Set which resource pack should be installed and in what order
   # Visit this page for more info:
   # https://github.com/LOOHP/InteractiveChat-DiscordSRV-Addon/wiki/Resource-Pack
-  Order: []
+  Order: 
+    - "Default-Dark-Mode-1.19-v1.3.4.zip"
   # Enable (Partial) Optifine Custom Textures CIT support
   OptifineCustomTextures: true
   # Enable (Partial) Chime Custom Model Override support (1.16+)
