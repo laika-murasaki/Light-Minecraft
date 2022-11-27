@@ -9,10 +9,10 @@ sit-permission-default: true
 # All messages can be colored with '&' plus colorID. Color IDS: http://minecraft.gamepedia.com/Formatting_codes
 
 # The message sent to the player when they sit down
-sitdown-message: '&bYou are now sitting.'
+sitdown-message: '&#3fa18esitting'
 
 # The message sent when the player gets up from sitting.
-situp-message: '&bYou are no longer sitting.'
+situp-message: '&#5d998eno sitting'
 
 # The message sent when the player is unable to sit (In air)
-sitfail-message: '&cYou cannot sit in the air!'
+sitfail-message: '&#28909ccannot sit air'
