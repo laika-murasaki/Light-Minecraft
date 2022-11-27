@@ -1,4 +1,16 @@
 {
+  "laika:main/mob_despawner": {
+    "criteria": {
+      "tick": "2022-11-27 23:32:44 +0700"
+    },
+    "done": true
+  },
+  "laika:main/root": {
+    "criteria": {
+      "tick": "2022-11-27 23:32:44 +0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:warm_ocean": "2022-11-27 23:25:35 +0700"

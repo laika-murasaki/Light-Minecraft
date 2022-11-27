@@ -120,6 +120,8 @@ world-settings:
       entity: 50
     dragon-death-sound-radius: 300
     verbose: false
+  faweregentempworld:
+    verbose: false
 commands:
   silent-commandblock-console: true
   log: true
