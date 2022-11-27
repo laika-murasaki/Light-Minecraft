@@ -141,6 +141,9 @@ placeholders:
   time-offset: 0
   register-tab-expansion: false
 placeholder-output-replacements:
+  '%javascript_check_voice%':
+    'voiceuse': '&a█'
+    'voicenotuse': '&c█'
   '%essentials_vanished%':
     'yes': '&7| Vanished'
     'no': ''
