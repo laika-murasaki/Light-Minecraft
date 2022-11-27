@@ -1,0 +1,7 @@
+reload: La configuracion ha sido recargada.
+noPermissions: No tienes los permisos suficientes.
+updateLine2: '&eTu version actual: &a{currentVer}'
+updateLine1: '&eHay una nueva version disponible: &a{newVer}'
+updateLine3: '&e{url}'
+playerNotFound: No se pudo encontrar al jugador.
+wandNotFound: No se pudo encontrar la vara del constructor.

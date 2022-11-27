@@ -1,0 +1,30 @@
+Owner:
+  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+  tagprefix: "&2&lOwner &a"
+Admin:
+  tabprefix: "&0&l[&4&lAdmin&0&l] &1"
+  tagprefix: "&4&lAdmin &a"
+Player:
+  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
+  tagprefix: "&2&lPlayer &3"
+example_group:
+  header:
+    - "This is an example of per-group header/footer"
+  footer:
+    - "applied to a group"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "%javascript_check_voice%&r%javascript_check_afk%"
+  tagprefix: "%javascript_check_afk%"
+  customtabname: "%essentials_nickname%"
+  customtagname: "%essentials_nickname%" # don't forget to enable unlimited nametag mode to make this one work
+  #belowname: "%progress_bar_{player_health}_c:&a♥_p:&e♥_r:&7♥_l:0_m:20_fullbar:&aFull%"
+  tabsuffix: ""
+  tagsuffix: ""
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

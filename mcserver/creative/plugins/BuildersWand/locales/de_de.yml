@@ -1,0 +1,6 @@
+reload: Die Konfig wurde neugeladen.
+noPermissions: Du besitzt zu wenige Rechte um dies zu tun.
+updateLine2: '&eAktuelle Version: &a{currentVer}'
+updateLine1: '&eEin neues Update steht bereit: &a{newVer}'
+updateLine3: '&e{url}'
+playerNotFound: Der Spieler konnte nicht gefunden werden.

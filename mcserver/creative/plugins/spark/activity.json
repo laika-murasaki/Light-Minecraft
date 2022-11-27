@@ -1,0 +1,40 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Inactive_Laika",
+      "uniqueId": "779f16b5-4e52-4d99-9f1d-052b54b6126e"
+    },
+    "time": 1669536930975,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3eTQBKd2I6"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1669062223147,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/V0fJEPhQdX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Inactive_Laika",
+      "uniqueId": "779f16b5-4e52-4d99-9f1d-052b54b6126e"
+    },
+    "time": 1668345973949,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/56RDvyIDrE"
+    }
+  }
+]
