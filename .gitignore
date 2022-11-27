@@ -1040,3 +1040,11 @@ mcserver/creative/plugins/voicechat-bukkit-1.19.2-2.3.13.jar
 mcserver/creative/map-color-cache.dat
 mcserver/creative/plugins/DiscordSRV/config.yml
 mcserver/creative/plugins/DiscordSRV/linkedaccounts.json
+mcserver/creative/level/map/data/raids.dat
+mcserver/creative/level/map/data/scoreboard.dat
+mcserver/creative/level/map/datapacks/bukkit/pack.mcmeta
+mcserver/creative/level/map/level.dat
+mcserver/creative/level/map/level.dat_old
+mcserver/creative/level/map/region
+mcserver/creative/level/map/session.lock
+mcserver/creative/level/map/uid.dat
