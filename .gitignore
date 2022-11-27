@@ -797,3 +797,6 @@ mcserver/survival/plugins/InteractiveChatDiscordSrvAddon/cache/data.dat
 mcserver/survival/plugins/LibsDisguises/internal.yml
 mcserver/survival/plugins/voicechat/voicechat-server.properties
 mcserver/survival/plugins/Chunky-1.3.38.jar
+mcserver/proxy/plugins/floodgate
+mcserver/proxy/plugins/floodgate/key.pem
+mcserver/survival/key.pem
