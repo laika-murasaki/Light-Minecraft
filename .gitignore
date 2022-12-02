@@ -1072,3 +1072,15 @@ mcserver/creative/level/map/advancements
 mcserver/creative/plugins/WorldGuard/cache/profiles.sqlite
 mcserver/proxy/logs
 mcserver/creative/level/usercache.json
+database/
+mcserver/creative/level/map/data
+mcserver/creative/level/usercache.json
+mcserver/creative/plugins/AFKPlus/statistics.yml
+mcserver/creative/level/usercache.json
+mcserver/creative/light.properties
+mcserver/survival/plugins/CoreProtect/.language
+mcserver/survival/plugins/dynmap/ids-by-ip.txt
+mcserver/survival/plugins/dynmap/map.pending
+mcserver/survival/plugins/HiddenArmor/enabled-players.yml
+mcserver/survival/plugins/LibsDisguises/internal.yml
+mcserver/survival/plugins/ProtocolLib/lastupdate

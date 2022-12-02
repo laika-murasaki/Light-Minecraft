@@ -22,7 +22,7 @@ Config:
     minigames: MiniGames World
 Messages:
   death-message:
-  - '&#50a191&lDEAD: &#7da8a0World&7:7f%world% &7(&f%coord-x%&7,&f%coord-y%&7,&f%coord-z%&7)'
+  - '&x&5&0&a&1&9&1&lDEAD&r: &x&7&d&a&8&a&0World&7:&f%world% &7(&f%coord-x%&7,&f%coord-y%&7,&f%coord-z%&7)'
   death-message-extra: ''
   no-died-recently: '&7You haven''t died recently.'
   incorrect-world: '&7You can''t do that on this world'

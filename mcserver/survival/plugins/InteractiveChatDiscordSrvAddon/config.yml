@@ -256,7 +256,7 @@ Resources:
   # Set which resource pack should be installed and in what order
   # Visit this page for more info:
   # https://github.com/LOOHP/InteractiveChat-DiscordSRV-Addon/wiki/Resource-Pack
-  Order: 
+  Order:
     - "Default-Dark-Mode-1.19-v1.3.4.zip"
   # Enable (Partial) Optifine Custom Textures CIT support
   OptifineCustomTextures: true
