@@ -1,1 +1,11 @@
-{}
+{
+  "map": {
+    "world": "map",
+    "centerX": 0.0,
+    "centerZ": 0.0,
+    "radiusX": 166666.0,
+    "radiusZ": 166666.0,
+    "shape": "square",
+    "wrap": "none"
+  }
+}

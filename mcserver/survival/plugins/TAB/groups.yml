@@ -17,8 +17,8 @@ example_group:
 _DEFAULT_:
   tabprefix: "%javascript_check_voice%&r%javascript_check_afk%"
   tagprefix: "%javascript_check_afk%"
-  customtabname: "%essentials_nickname%"
-  customtagname: "%essentials_nickname%" # don't forget to enable unlimited nametag mode to make this one work
+  customtabname: "%javascript_pixeltext_{player_name}%"
+  customtagname: "%javascript_pixeltext_{player_name}%" # don't forget to enable unlimited nametag mode to make this one work
   #belowname: "%progress_bar_{player_health}_c:&a♥_p:&e♥_r:&7♥_l:0_m:20_fullbar:&aFull%"
   tabsuffix: ""
   tagsuffix: ""

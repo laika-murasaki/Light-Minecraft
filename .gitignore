@@ -1085,3 +1085,16 @@ mcserver/survival/plugins/dynmap/map.pending
 mcserver/survival/plugins/HiddenArmor/enabled-players.yml
 mcserver/survival/plugins/LibsDisguises/internal.yml
 mcserver/survival/plugins/ProtocolLib/lastupdate
+database_mysql
+mcserver/survival/plugins/dynmap/map_nether.pending
+mcserver/survival/plugins/dynmap/map_the_end.pending
+mcserver/survival/plugins/dynmap/worlds.txt
+mcserver/survival/plugins/HiddenArmor/enabled-players.yml
+mcserver/survival/plugins/LibsDisguises/internal.yml
+mcserver/survival/plugins/LibsDisguises/preferences.json
+mcserver/survival/plugins/ProtocolLib/lastupdate
+mcserver/survival/plugins/voicechat/voicechat-server.properties
+nginx
+php
+site
+xampp

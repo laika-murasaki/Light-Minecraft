@@ -2,20 +2,29 @@
 ---
 worlds:
 -   name: map
-    title: Overworld
+    title: map
     enabled: true
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
     extrazoomout: 2
+    visibilitylimits: [
+        ]
+    hiddenlimits: [
+        ]
+    hidestyle: stone
     maps:
     -   class: org.dynmap.hdmap.HDMap
         name: flat
         title: Flat
         prefix: flat
-        perspective: iso_S_90_vlowres
+        perspective: iso_S_90_lowres
         shader: stdtexture
         lighting: shadows
         image-format: default
-        mapzoomin: 2
-        mapzoomout: 2
+        mapzoomin: 1
+        mapzoomout: 3
         boostzoom: 0
         tilescale: 0
         append_to_world: ''
@@ -24,41 +33,18 @@ worlds:
         name: surface
         title: Surface
         prefix: t
-        perspective: iso_SE_60_lowres
+        perspective: iso_SE_30_hires
         shader: stdtexture
         lighting: shadows
         image-format: default
-        mapzoomin: 2
-        mapzoomout: 3
+        mapzoomin: 1
+        mapzoomout: 5
         boostzoom: 0
         tilescale: 0
         append_to_world: ''
         protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: heat
-        title: Heat
-        prefix: heat
-        perspective: iso_S_90_vlowres
-        shader: inhabited
-        lighting: default
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 3
-        boostzoom: 0
-        tilescale: 0
-        append_to_world: ''
-        protected: false
-    protected: false
-    showborder: true
-    sendposition: true
-    sendhealth: true
-    visibilitylimits: [
-        ]
-    hiddenlimits: [
-        ]
-    hidestyle: stone
 -   name: map_nether
-    title: Nether
+    title: map_nether
     enabled: true
     extrazoomout: 2
     maps:
@@ -66,107 +52,38 @@ worlds:
         name: flat
         title: Flat
         prefix: flat
-        perspective: iso_S_90_vlowres
-        shader: defaultscheme
-        lighting: default
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 2
-        boostzoom: 0
-        tilescale: 0
-        append_to_world: ''
-        protected: false
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: nethershadows
+        background: '#300806'
+        mapzoomin: 1
     -   class: org.dynmap.hdmap.HDMap
         name: nether
         title: Surface
         prefix: nt
-        perspective: iso_SE_60_lowres
+        perspective: iso_SE_30_hires
         shader: stdtexture
-        lighting: default
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 3
-        boostzoom: 0
-        tilescale: 0
+        lighting: nethershadows
         background: '#300806'
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: heat
-        title: Heat
-        prefix: heat
-        perspective: iso_S_90_vlowres
-        shader: inhabited
-        lighting: default
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 3
-        boostzoom: 0
-        tilescale: 0
-        append_to_world: ''
-        protected: false
-    protected: false
-    showborder: true
-    sendposition: true
-    sendhealth: true
-    visibilitylimits: [
-        ]
-    hiddenlimits: [
-        ]
-    hidestyle: stone
+        mapzoomin: 1
 -   name: map_the_end
-    title: The End
+    title: map_the_end
     enabled: true
-    protected: false
-    showborder: true
-    sendposition: true
-    sendhealth: true
     extrazoomout: 2
-    visibilitylimits: [
-        ]
-    hiddenlimits: [
-        ]
-    hidestyle: stone
     maps:
     -   class: org.dynmap.hdmap.HDMap
         name: flat
         title: Flat
         prefix: flat
-        perspective: iso_S_90_vlowres
+        perspective: iso_S_90_lowres
         shader: stdtexture
-        lighting: default
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 2
-        boostzoom: 0
-        tilescale: 0
-        append_to_world: ''
-        protected: false
+        lighting: brightnight
+        mapzoomin: 1
     -   class: org.dynmap.hdmap.HDMap
         name: the_end
         title: Surface
         prefix: st
-        perspective: iso_SE_60_lowres
+        perspective: iso_SE_30_hires
         shader: stdtexture
-        lighting: default
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 3
-        boostzoom: 0
-        tilescale: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: heat
-        title: Heat
-        prefix: heat
-        perspective: iso_S_90_vlowres
-        shader: inhabited
-        lighting: default
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 3
-        boostzoom: 0
-        tilescale: 0
-        append_to_world: ''
-        protected: false
+        lighting: brightnight
+        mapzoomin: 1

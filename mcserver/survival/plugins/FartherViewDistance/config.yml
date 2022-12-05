@@ -16,7 +16,7 @@
 #      "X63"  =  63 | long[ 254] = byte[ 2032]
 #     "X127"  = 127 | long[1020] = byte[ 8160]
 #     "X383"  = 383 | long[3064] = byte[24512]
-view-distance-mode: "X31"
+view-distance-mode: "X63"
 
 # 伺服器本身的視野距離
 #   只是為了防止錯誤 (某些最佳化核心)

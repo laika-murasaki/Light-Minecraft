@@ -9,7 +9,7 @@ header-footer:
   - ''
   footer:
   - ''
-  - '&#329984tps &#6aa89c%tps%'
+  - '&#329984%javascript_pixeltext_tps% &#6aa89c%javascript_pixeltext_{server_tps_1}%'
   - ''
   per-world:
     world1:

@@ -27,26 +27,19 @@ deftemplatesuffix: hires
 #  postgres: PostgreSQL database, at hostname:port in database, accessed via userid with password
 storage:
   # Filetree storage (standard tree of image files for maps)
-  type: filetree
+  #type: filetree <- DONT FORGET TO COMMENT THIS OUT
   # SQLite db for map storage (uses dbfile as storage location)
   #type: sqlite
   #dbfile: dynmap.db
   # MySQL DB for map storage (at 'hostname':'port' with flags "flags" in database 'database' using user 'userid' password 'password' and table prefix 'prefix')
-  #type: mariadb
-  #hostname: localhost
-  #port: 3306
-  #database: map
-  #userid: Light
-  #password: light@admin
-  #prefix: ""
-  #flags: "?allowReconnect=true&autoReconnect=true"
-  #
-  # AWS S3 backet web site
-  #type: aws_s3
-  #bucketname: "dynmap-bucket-name"
-  #region: us-east-1
-  #aws_access_key_id: "<aws-access-key-id>"
-  #aws_secret_access_key: "<aws-secret-access-key>"  
+  type: mysql
+  hostname: localhost
+  port: 3303
+  database: dynmap
+  userid: laika
+  password: 0930376610xX!
+  prefix: "" # Can add prefix for tables if you want
+  flags: "?allowReconnect=true&autoReconnect=true"
   
 components:
   - class: org.dynmap.ClientConfigurationComponent
@@ -91,7 +84,7 @@ components:
     sendposition: true
     allowwebchat: false
     webchat-interval: 5
-    hidewebchatip: false
+    hidewebchatip: true
     includehiddenplayers: false
     use-name-colors: true
     use-player-login-ip: false
@@ -99,7 +92,7 @@ components:
     block-banned-player-chat: true
     #hideifshadow: 0
     #hideifundercover: 0
-    #hideifsneaking: false
+    hideifsneaking: false
   #  # Require login for web-to-server chat (requires login-enabled: true)
     webchat-requires-login: false
   #  # If set to true, users must have dynmap.webchat permission in order to chat
@@ -109,22 +102,22 @@ components:
     hide-if-invisiblity-potion: true
     hidenames: false
    
-  - class: org.dynmap.SimpleWebChatComponent
-    allowchat: false
+  #- class: org.dynmap.SimpleWebChatComponent
+    #allowchat: false
     # If true, web UI users can supply name for chat using 'playername' URL parameter.  'trustclientname' must also be set true.
-    allowurlname: false
+    #allowurlname: false
   
   # Note: this component is needed for the dmarker commands, and for the Marker API to be available to other plugins
   - class: org.dynmap.MarkersComponent
     type: markers
-    showlabel: false
+    showlabel: true
     enablesigns: true
     # Default marker set for sign markers
     default-sign-set: markers
     # (optional) add spawn point markers to standard marker layer
     showspawn: true
     spawnicon: world
-    spawnlabel: "Center"
+    spawnlabel: "Spawn"
     # (optional) layer for showing offline player's positions (for 'maxofflinetime' minutes after logoff)
     showofflineplayers: false
     offlinelabel: "Offline"
@@ -146,9 +139,9 @@ components:
   #- class: org.dynmap.ClientComponent
     #type: chat
     #allowurlname: false
-  - class: org.dynmap.ClientComponent
-    type: chatballoon
-    focuschatballoons: false
+  #- class: org.dynmap.ClientComponent
+    #type: chatballoon
+    #focuschatballoons: false
   #- class: org.dynmap.ClientComponent
     #type: chatbox
     #showplayerfaces: true
@@ -194,19 +187,19 @@ components:
     show-chunk: false
     
   # Note: more than one logo component can be defined
-  #- class: org.dynmap.ClientComponent
-    #type: logo
-    #text: "Home"
-    #logourl: "images/lightrw.png"
-    #linkurl: "https://codeplex.ml/"
-  #  # Valid positions: top-left, top-right, bottom-left, bottom-right
-    #position: top-left
+  - class: org.dynmap.ClientComponent
+    type: logo
+    text: "Dynmap"
+    logourl: "images/block_surface.png"
+    linkurl: "https://lightcc.tk"
+    # Valid positions: top-left, top-right, bottom-left, bottom-right
+    position: top-left
 
-  #- class: org.dynmap.ClientComponent
-  #  type: inactive
-  #  timeout: 1800 # in seconds (1800 seconds = 30 minutes)
-  #  redirecturl: inactive.html
-  #  #showmessage: 'You were inactive for too long.'
+  - class: org.dynmap.ClientComponent
+    type: inactive
+    timeout: 1800 # in seconds (1800 seconds = 30 minutes)
+    redirecturl: inactive.html
+    #showmessage: 'You were inactive for too long.'
   
   #- class: org.dynmap.TestComponent
   #  stuff: "This is some configuration-value"
@@ -311,13 +304,13 @@ render-triggers:
   #- playerjoin
   - blockplaced
   - blockbreak
-  #- leavesdecay
-  #- blockburn
+  - leavesdecay
+  - blockburn
   - chunkgenerated
-  #- blockformed
-  #- blockfaded
-  #- blockspread
-  #- pistonmoved
+  - blockformed
+  - blockfaded
+  - blockspread
+  - pistonmoved
   - explosion
   #- blockfromto
   #- blockphysics
@@ -326,13 +319,13 @@ render-triggers:
   #- blockredstone
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
-webpage-title: "Light Reimagined | Map"
+#webpage-title: "My Awesome Server Map"
 
 # The path where the tile-files are placed.
-tilespath: "D:/Light Reimagined Rewrite/Nginx/html/map/tiles"
+tilespath: d:\\Light-Minecraft\\nginx\\html\\map\\tiles
 
 # The path where the web-files are located.
-webpath: "D:/Light Reimagined Rewrite/Nginx/html/map"
+webpath: d:\\Light-Minecraft\\nginx\\html\\map
 
 # If set to false, disable extraction of webpath content (good if using custom web UI or 3rd party web UI)
 # Note: web interface is unsupported in this configuration - you're on your own
@@ -374,7 +367,7 @@ progressloginterval: 100
 # Parallel fullrender: if defined, number of concurrent threads used for fullrender or radiusrender
 #   Note: setting this will result in much more intensive CPU use, some additional memory use.  Caution should be used when
 #  setting this to equal or exceed the number of physical cores on the system.
-parallelrendercnt: 16
+#parallelrendercnt: 16
 
 # Interval the browser should poll for updates.
 updaterate: 2000

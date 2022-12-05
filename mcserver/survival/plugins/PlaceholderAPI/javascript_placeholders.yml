@@ -22,13 +22,15 @@
 # 'my_placeholder':
 #   file: 'my_placeholder.js'
 
-check_voice:
-  file: check_voice.js
-check_discord:
-  file: check_discord.js
-check_afk:
-  file: check_afk.js
-format:
-  file: format.js
+# check_voice:
+# file: check_voice.js
+# check_discord:
+# file: check_discord.js
+# check_afk:
+# file: check_afk.js
+# format:
+# file: format.js
 example:
   file: example.js
+# pixeltext:
+# file: pixeltext.js

@@ -1,0 +1,122 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 0,
+  "name": "laika1",
+  "url": "https://cdn.discordapp.com/attachments/1047854610901106708/1047855389871439902/unknown.png",
+  "width": 6,
+  "height": 3,
+  "creator": "779f16b5-4e52-4d99-9f1d-052b54b6126e",
+  "creationTime": 1670070429901,
+  "mapdata": [
+    {
+      "mapid": 3,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 4,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 5,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 6,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 7,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 8,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 9,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 10,
+      "image": "7.png",
+      "markers": [
+        {
+          "name": "Home",
+          "x": 112,
+          "y": 110,
+          "type": "BANNER_BLUE",
+          "direction": 1,
+          "visible": true,
+          "caption": null
+        }
+      ]
+    },
+    {
+      "mapid": 11,
+      "image": "8.png",
+      "markers": []
+    },
+    {
+      "mapid": 12,
+      "image": "9.png",
+      "markers": [
+        {
+          "name": "Homeaw",
+          "x": 62,
+          "y": -65,
+          "type": "RED_MARKER",
+          "direction": 15,
+          "visible": true,
+          "caption": "helo"
+        }
+      ]
+    },
+    {
+      "mapid": 13,
+      "image": "10.png",
+      "markers": []
+    },
+    {
+      "mapid": 14,
+      "image": "11.png",
+      "markers": []
+    },
+    {
+      "mapid": 15,
+      "image": "12.png",
+      "markers": []
+    },
+    {
+      "mapid": 16,
+      "image": "13.png",
+      "markers": []
+    },
+    {
+      "mapid": 17,
+      "image": "14.png",
+      "markers": []
+    },
+    {
+      "mapid": 18,
+      "image": "15.png",
+      "markers": []
+    },
+    {
+      "mapid": 19,
+      "image": "16.png",
+      "markers": []
+    },
+    {
+      "mapid": 20,
+      "image": "17.png",
+      "markers": []
+    }
+  ]
+}
